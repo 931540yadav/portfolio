@@ -1,0 +1,13 @@
+.navbar{
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.headings{
+	font-size: 3rem;
+	justify-content: center;
+}
+
+/*about*/
+#pic{
+	flex-direction: column;
+}
