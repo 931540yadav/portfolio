@@ -35,14 +35,14 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
 .contact .contact-content{
-    display: flex;
+    display: fixed;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
