@@ -35,14 +35,14 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .contact, footer{
+.about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
 .services .serv-content,
 .skills .skills-content,
 .contact .contact-content{
-    display: fixed;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
@@ -254,7 +254,7 @@ section .title::after{
 }
 .about .about-content .right a:hover{
     color: crimson;
-    background: fixed;
+    background: none;
 }
 
 /* services section styling */
